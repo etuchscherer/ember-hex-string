@@ -1,6 +1,6 @@
 {
   "name": "ember-hex-string",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility for converting strings to an idempotent hex value.",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/etuchscherer/ember-hex-string",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -39,7 +39,8 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "utility"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
