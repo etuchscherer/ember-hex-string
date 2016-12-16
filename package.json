@@ -1,6 +1,6 @@
 {
   "name": "ember-hex-string",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Utility for converting strings to an idempotent hex value.",
   "directories": {
     "doc": "doc",
