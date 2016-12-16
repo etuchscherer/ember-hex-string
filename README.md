@@ -49,7 +49,7 @@ Pass the utility any string value
 ```
 let initials = 'ET';
 
-stringToHex('ET');  // ==> '8af';
+stringToHexColor('www.google.com');  // ==> '#29e53e';
 ```
 
 ## Running Tests
