@@ -14,10 +14,10 @@ export function stringToHexColor(string) {
   let hexValue = stringToHex(string);
 
   if (hexValue.length >= 0 && hexValue.length <= 5) {
-    return hexValue.substr(0, 3);
+    return `#${hexValue.substr(0, 3)}`;
   }
 
   if (hexValue.length >= 6) {
-    return hexValue.substr(0, 6);
+    return `#${hexValue.substr(0, 6)}`;
   }
 }

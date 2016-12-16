@@ -16,13 +16,13 @@ test('stringToHex can return a lengthy hex value', function(assert) {
 
 test('stringToHexColor will truncate length of 2 properly', function(assert) {
   let result = stringToHexColor('ET');
-  let expected = '8af';
+  let expected = '#8af';
   assert.strictEqual(result, expected);
 });
 
 test('stringToHexColor can truncate a lengthy hex value', function(assert) {
   let result = stringToHexColor('foosangbro-chimichanga-hot.potatoes,with extra sauce');
-  assert.ok(result.length === 6);
+  assert.ok(result.length === 7);
 });
 
 test('stringToHexColor returns result where first char === #', function(assert) {
