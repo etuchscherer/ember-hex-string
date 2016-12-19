@@ -1,3 +1,5 @@
+[![Ember Observer Score](https://emberobserver.com/badges/ember-hex-string.svg)](https://emberobserver.com/addons/ember-hex-string)
+
 # Ember-hex-string
 
 Simple one way idempotent conversion from a string to a hex value. Useful for generating unique colors for a supplied string.
