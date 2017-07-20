@@ -9,7 +9,6 @@ export function stringToHex(string) {
   return Math.abs(hash).toString(16);
 }
 
-
 export function stringToHexColor(string) {
   let hexValue = stringToHex(string);
 

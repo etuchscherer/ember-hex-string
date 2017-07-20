@@ -1,6 +1,6 @@
 {
   "name": "ember-hex-string",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Utility for hashing strings to hex values.",
   "keywords": [
     "ember-addon"
